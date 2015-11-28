@@ -1,3 +1,5 @@
+SET(EXECUTABLE_OUTPUT_PATH ../)
+
 project(test_functor_type)
 
 add_executable(
