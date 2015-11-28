@@ -4,9 +4,6 @@
 #define	STATE_MAX       8
 #define EDGE_MAX        8
 
-extern	eState		gStateTable[STATE_MAX][EDGE_MAX];
-extern	eActiong	ActionTable[STATE_MAX][EDGE_MAX];
-
 enum			eState
   {
     S0,
@@ -26,5 +23,8 @@ enum			eAction
     HR,
     ACTION_ERROR
   };
+
+extern	eState		gStateTable[STATE_MAX][EDGE_MAX];
+extern	eAction		gActionTable[STATE_MAX][EDGE_MAX];
 
 #endif /* !MACHINE_HPP_ */
