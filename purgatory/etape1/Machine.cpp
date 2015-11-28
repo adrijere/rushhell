@@ -5,7 +5,7 @@
 ** Login   <mathon_j@mathonj>
 ** 
 ** Started on  Sat Nov 28 18:51:32 2015 Jérémy MATHON
-** Last update Sat Nov 28 18:55:55 2015 Jérémy MATHON
+** Last update Sat Nov 28 19:01:12 2015 Jérémy MATHON
 */
 
 #include "Machine.hpp"
