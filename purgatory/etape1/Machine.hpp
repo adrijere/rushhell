@@ -1,13 +1,3 @@
-/*
-** Machine.hpp for Machine in /home/mathon_j/rendu/rushhell/rushhell/purgatory/etape1
-** 
-** Made by Jérémy MATHON
-** Login   <mathon_j@mathonj>
-** 
-** Started on  Sat Nov 28 18:37:05 2015 Jérémy MATHON
-** Last update Sat Nov 28 18:50:39 2015 Jérémy MATHON
-*/
-
 #ifndef MACHINE_HPP_
 # define MACHINE_HPP_
 
@@ -34,7 +24,7 @@ enum			eAction
   {
     MA,
     HR,
-    ACTION_ERROR     
+    ACTION_ERROR
   };
 
 #endif /* !MACHINE_HPP_ */
