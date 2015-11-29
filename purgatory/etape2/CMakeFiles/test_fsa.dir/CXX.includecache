@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mathon_j/rendu/rushhell/purgatory/etape2/Machine.hpp
+
+/home/mathon_j/rendu/rushhell/purgatory/etape2/main.cpp
+iostream
+-
+Machine.hpp
+/home/mathon_j/rendu/rushhell/purgatory/etape2/Machine.hpp
+
