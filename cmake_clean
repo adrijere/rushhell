@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+if [ $# -gt 0 ]
+then
+    rm -rf $1/CMakeCache.txt $1/cmake_install.cmake $1/CMakeLists $1/CMakeFiles
+else
+    rm -rf CMakeCache.txt cmake_install.cmake CMakeLists CMakeFiles
+fi

@@ -17,7 +17,7 @@ int otherFunct(int n) {
 int	main(int ac, char **av)
 {
   Function<int(char)> f = &function;
-  // Function<int(int)> f2 = boost::bind(::otherFunct, _1);
+    //    Function<int(int)> f2 = boost::bind(::otherFunct, _1);
   f('c');
   // f2(78);
   return (0);
